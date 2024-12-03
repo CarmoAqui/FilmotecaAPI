@@ -1,0 +1,25 @@
+{
+  "name": "filmoteca",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de filmes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.2.0",
+    "filmoteca": "file:",
+    "jsonwebtoken": "^9.0.0",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
